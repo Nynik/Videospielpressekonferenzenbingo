@@ -1,5 +1,6 @@
 .grid-container {
   width: 56vw;
+  height: 100vh;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
