@@ -27,7 +27,6 @@ body {
 .grid-container {
   width: 50%;
   height: 100%;
-  padding: 20px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 20px;
