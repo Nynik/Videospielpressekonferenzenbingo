@@ -39,3 +39,11 @@ body {
   text-align: center;
   font-size: 30px;
 }
+
+.grid-container > div:hover {
+  background-color: #777777;
+}
+
+.grid-container > div:active {
+  background-color: #555555;
+}
