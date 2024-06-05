@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Stardom;
+  src: url(Stardom-Regular.woff2);
+}
+
+.title {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.bingofield{
+
+}
+
 .grid-container {
   width: 56vw;
   height: 100vh;
