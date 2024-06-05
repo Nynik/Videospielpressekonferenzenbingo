@@ -40,10 +40,10 @@ body {
   font-size: 30px;
 }
 
-.grid-container > div:hover {
+.card:hover {
   background-color: #777777;
 }
 
-.grid-container > div:active {
+.card:active {
   background-color: #555555;
 }
