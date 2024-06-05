@@ -32,7 +32,7 @@ body {
   grid-row-gap: 20px;
 }
 
-.grid-container > div {
+.card {
   height: auto;
   width: auto;
   background-color: #999999;
