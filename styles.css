@@ -10,10 +10,11 @@ body {
 }
 
 .title {
+  height: 100vh;
+  width: auto;
+  text-align: justify;
   writing-mode: vertical-rl;
   text-orientation: mixed;
-  height: 100vh;
-  text-align: justify;
 }
 
 .bingofield{
@@ -21,7 +22,7 @@ body {
 }
 
 .grid-container {
-  width: 56vw;
+  width: 56%;
   height: 100vh;
   padding: 20px;
   display: grid;
