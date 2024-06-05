@@ -3,6 +3,10 @@
   src: url(Stardom-Regular.woff2);
 }
 
+body {
+  margin: 0;
+}
+
 .title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
