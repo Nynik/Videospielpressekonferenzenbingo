@@ -5,11 +5,15 @@
 
 body {
   margin: 0;
+  display: flex;
+
 }
 
 .title {
   writing-mode: vertical-rl;
   text-orientation: mixed;
+  height: 100vh;
+  text-align: justify;
 }
 
 .bingofield{
