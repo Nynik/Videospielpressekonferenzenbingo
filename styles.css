@@ -12,9 +12,11 @@ body {
 .title {
   height: 100vh;
   width: 10vw;
+  background-color: #000000;
   text-orientation: mixed;
   writing-mode: vertical-rl;
   font-family: Stardom;
+  color: #ffffff;
 }
 
 .bingofield{
