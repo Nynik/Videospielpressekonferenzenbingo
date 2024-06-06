@@ -12,13 +12,13 @@ body {
 }
 
 .grid-container {
-  width: 100vh;
-  height: 100vh;
+  width: 90vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 2vw;
+  grid-column-gap: 1vw;
   grid-template-rows: repeat(5, 1fr);
-  grid-row-gap: 2vw;
+  grid-row-gap: 1vw;
 }
 
 .card {
@@ -28,6 +28,7 @@ body {
   background-color: #999;
   text-align: center;
   font-size: 30px;
+  border-radius: 1vw;
 }
 
 .card:hover {
