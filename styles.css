@@ -1,6 +1,6 @@
 :root {
-  --cardbg: #049DD9;
-  --cborder: #049DD9BF;
+  --cardbg: #ffffff80;
+  --cborder: #ffffffBF;
   --scard: #049DD9BF;
 }
 
@@ -40,20 +40,20 @@ body {
   border-radius: 1vw;
   font-size: 1vw;
   font-family: Chillax;
-  color: #fff; 
+  color: #fff;
   transition: 0.2s;
 }
 
 .card:hover {
-  background-color: #777;
+  background-color: #ffffff99;
 }
 
 .card:active {
-  background-color: #555;
+  background-color: #ffffffB3;
 }
 
 .selected {
   border-color: var(--scard);
-  box-shadow: 0px 0px 0.25vw 0.5vw var(--scard);
+  box-shadow: 0px 0px 0.25vw var(--scard);
   transition: 0.2s;
 }
