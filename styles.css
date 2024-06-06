@@ -1,5 +1,7 @@
 :root {
-  --cardbg: #aaa;
+  --cardbg: rgba(125, 125, 125, 1);
+  --cborder: rgba(125, 125, 125, 0.75);
+  --selected: rgba (0, 255, 0, 0.75);
 }
 
 @font-face {
@@ -33,10 +35,10 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--cardbg);
-  text-align: center;
-  font-size: 1vw;
-  border: 0.25vw solid var(--cardbg);
+  border: 0.25vw solid var(--cborder);
   border-radius: 1vw;
+  font-size: 1vw;
+  font-family: Stardom;
 }
 
 .card:hover {
@@ -45,4 +47,8 @@ body {
 
 .card:active {
   background-color: #555;
+}
+
+.selected {
+  border-color: var(--selected);
 }
