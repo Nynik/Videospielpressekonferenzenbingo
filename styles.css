@@ -45,6 +45,7 @@ body {
   font-size: 1vw;
   font-family: Chillax;
   color: #fff;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   transition: 0.2s;
