@@ -41,7 +41,6 @@ body {
   background-color: var(--cardbg);
   border: 0.25vw solid var(--cborder);
   border-radius: 1vw;
-  text-align: left;
   font-size: 1vw;
   font-family: Chillax;
   color: #fff;
