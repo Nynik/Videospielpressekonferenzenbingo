@@ -37,6 +37,7 @@ body {
   padding: 0.1vw;
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: var(--cardbg);
   border: 0.25vw solid var(--cborder);
   border-radius: 1vw;
@@ -44,8 +45,6 @@ body {
   font-size: 1vw;
   font-family: Chillax;
   color: #fff;
-  overflow: hidden;
-  text-overflow: ellipsis;
   transition: 0.2s;
 }
 
