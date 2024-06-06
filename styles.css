@@ -35,7 +35,7 @@ body {
   background-color: var(--cardbg);
   text-align: center;
   font-size: 1vw;
-  border: 1vw solid var(--cardbg);
+  border: 0.25vw solid var(--cardbg);
   border-radius: 1vw;
 }
 
