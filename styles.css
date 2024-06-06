@@ -18,6 +18,8 @@ body {
   padding: 0;
   margin: 0;
   background-color: #261425;
+  background-image: url("heic1608a Hintergrund Verschwommen.jpg");
+  object-fit: cover;
 }
 
 .grid-container {
