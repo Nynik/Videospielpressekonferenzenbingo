@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align-center;
   background-color: var(--cardbg);
   border: 0.25vw solid var(--cborder);
   border-radius: 1vw;
