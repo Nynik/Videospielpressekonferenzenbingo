@@ -1,7 +1,7 @@
 :root {
   --cardbg: rgba(125, 125, 125, 1);
   --cborder: rgba(125, 125, 125, 0.75);
-  --selected: rgba (0, 255, 0, 0.75);
+  --scard: rgba(0, 255, 0, 0.75);
 }
 
 @font-face {
@@ -50,5 +50,6 @@ body {
 }
 
 .selected {
-  border-color: var(--selected);
+  border-color: var(--scard);
+  transition: 0.3s;
 }
