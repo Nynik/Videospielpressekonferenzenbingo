@@ -41,10 +41,12 @@ body {
   background-color: var(--cardbg);
   border: 0.25vw solid var(--cborder);
   border-radius: 1vw;
-  text-align: center;
+  text-align: left;
   font-size: 1vw;
   font-family: Chillax;
   color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
   transition: 0.2s;
 }
 
