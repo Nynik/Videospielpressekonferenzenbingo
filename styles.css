@@ -1,7 +1,7 @@
 :root {
-  --cardbg: rgba(125, 125, 125, 1);
-  --cborder: rgba(125, 125, 125, 0.75);
-  --scard: rgba(0, 255, 0, 0.75);
+  --cardbg: #049DD9;
+  --cborder: #049DD9BF;
+  --scard: #049DD9BF;
 }
 
 @font-face {
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
-  background-color: #000;
+  background-color: #261425;
 }
 
 .grid-container {
@@ -53,5 +53,6 @@ body {
 
 .selected {
   border-color: var(--scard);
+  box-shadow: 0px 0px 0.25vw 0.5vw var(--scard);
   transition: 0.2s;
 }
